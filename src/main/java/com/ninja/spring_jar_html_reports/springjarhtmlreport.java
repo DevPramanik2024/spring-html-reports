@@ -20,4 +20,13 @@ public class springjarhtmlreport
 	{
 	return "This is home file";
 	}
+	
+	@RequestMapping("/save")
+	public String save()
+	
+	{
+	return "This is save file";
+	}
+	
+	
 }
